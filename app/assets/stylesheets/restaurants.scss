@@ -1,0 +1,200 @@
+// Place all the styles related to the Restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.indexDiv {
+  // background-color: white;
+  background-color: transparent;
+  // padding: 20px;
+  width: 75%;
+}
+
+.indexTitle {
+  background-color: blue;
+}
+
+.indexPage {
+  // background-color: white;
+  background-color: transparent;
+  width: 100%;
+}
+
+.restaurants {
+  // background-color: white;
+  background-color: transparent;
+  // width: 30%;
+  // height: 540px;
+  // font-size: 15;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.restaurants {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurant {
+  background-color: white;
+  // margin: 10px;
+  // min-width: 315px;
+  // max-width: 445px;
+  // background-color: white;
+  // flex-grow: 1;
+  // width: 30%;
+  // height: 540px;
+  font-size: 15;
+  // border: 1px solid grey;
+  border-radius: 7px;
+}
+.please-please-work {
+  position: relative;
+  margin: 10px;
+  // min-width: 315px;
+  // max-width: 445px;
+  min-width: 210px;
+  max-width: 330px;
+  // background-color: white;
+  flex-grow: 1;
+  width: 30%;
+  // height: 440px;
+  // font-size: 15;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+.overlay {
+  // margin: 10px;
+  // min-width: 315px;
+  // max-width: 445px;
+  // height: 540px;
+  // border: 1px solid grey;
+  // border-radius: 7px;
+  position: absolute;
+  top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  // padding-top: 300px;
+  height: 100%;
+  width: 100%;
+  // opacity: 0.8;
+  // transition: .5s ease;
+}
+
+.please-please-work:hover .overlay {
+  background-color: #430098;
+  border-radius: 7px;
+  opacity: 0.8;
+}
+.please-please-work:hover .reserve-button {
+  display: block;
+
+}
+
+.meal-res {
+  width: 75%;
+  height: 200px;
+  // background-color: #DFD9D8;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #C0BCBB;
+}
+
+.reservation-header {
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info-label {
+  margin: 0;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.res-info {
+  display: flex;
+  justify-content: center;
+  // flex-direction
+  margin: 20px auto 20px auto;
+  font-family: 'Montserrat', sans-serif;
+  // font-size: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 13px;
+}
+
+.res-info > img {
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 7px;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  // font-size: 18px;
+  // font-weight: bold;
+}
+
+.empty {
+  height: 0;
+}
+.meal-pic {
+  width: 100%;
+  // min-height: 210px;
+  // max-height: 330px;
+  height: 330px;
+  // height: auto;
+  border-radius: 7px;
+}
+
+.rest-info {
+  padding: 10px;
+  // margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #6F6B6B;
+}
+.rest-name {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.rest-add {
+  font-weight: lighter;
+  font-size: 12px;
+}
+.meal-name {
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: #FF4338;
+  font-size: 20px;
+}
+.reserve-button {
+  display: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FF4338;
+  width: 90%;
+  border: 1px solid grey;
+  text-align: center;
+  border-radius: 7px;
+  margin: auto;
+  margin-top: 350px;
+  height: 35px;
+}
